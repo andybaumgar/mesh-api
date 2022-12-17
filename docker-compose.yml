@@ -6,3 +6,6 @@ services:
       - "5432:5432"
     environment:
       POSTGRES_HOST_AUTH_METHOD: trust
+      POSTGRES_PASSWORD: secret
+      POSTGRES_USER: user
+      POSTGRES_DB: mesh-api
